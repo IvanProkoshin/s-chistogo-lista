@@ -34,6 +34,10 @@ blockquote {
   background-image: url(../images/cover.svg);
 }
 
+.navigation-list {
+  list-style: none;
+}
+
 .content-section {
   box-sizing: border-box;
   width: 360px;
@@ -62,4 +66,18 @@ blockquote {
 .card_theme_bright {
   background-color: #fee42a;
   color: black;
+}
+
+.portrait {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.footer {
+  border-top: 1px solid #fee42a;
+}
+
+.contacts {
+  list-style: none;
 }
