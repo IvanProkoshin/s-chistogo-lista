@@ -6,25 +6,32 @@
     <title>С чистого листа</title>
     <link rel="icon" href="./icons/white-sheet.svg" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body class="page">
-    <header class="header">
-      <div>Вёрстка</div>
+    <header class="content-section content-section_theme_dark">
+      <img src="./images/logo.svg" alt="Логотип" class="logo" />
       <nav class="navigation">
         <ul class="navigation-list">
-          <li>Главная</li>
-          <li>О нас</li>
-          <li>Контакты</li>
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">О нас</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <header class="header">
-      <img src="./images/logo.svg" alt="Логотип" />
-      <h1>С чистого листа</h1>
+    <header class="content-section content-section_theme_dark">
+      <div class="cover">
+        <h1>С чистого листа</h1>
+      </div>
     </header>
     <main>
-      <section class="section">
+      <section class="content-section content-section_theme_dark">
         <p>
           Начинать что-то новое — тяжело и страшно. Даже если это просто небольшой фрагмент кода. Или текст. Например,
           прежде чем написать здесь что-то вразумительное, автор(ка) этого материала заварила чай, позвонила бабушке
@@ -37,7 +44,7 @@
           Разберёмся, почему это происходит.
         </p>
       </section>
-      <section class="section">
+      <section class="content-section content-section_theme_bright">
         <h2>Почему чистый лист - такой страшный?</h2>
         <p>
           Сам по себе чистый лист, конечно, не страшный. Боимся мы чаще всего объёма работы, которую предстоит сделать.
@@ -69,14 +76,15 @@
           </li>
         </ul>
       </section>
-      <section class="section">
+      <section class="content-section content-section_theme_dark">
         <h2>Как всё-таки начать что-то делать</h2>
         <p>
           Чаще всего страх чистого листа появляется не из-за чего-то одного, а из-за совокупности нескольких факторов.
           Вот что может помочь:
         </p>
-        <article class="article-polarinov">
-          Алексей Поляринов
+        <article class="card card_theme_dark">
+          <img src="./images/polyarinov.png" alt="Алексей Поляринов" />
+          <p>Алексей Поляринов</p>
           <h3>Начать любыми словами</h3>
           <p>
             Любыми — без шуток. Если не верите нам, посмотрите, например, чем открывается эссе Алексея Поляринова «Чарли
@@ -85,8 +93,7 @@
             становится легче войти в состояние потока.
           </p>
         </article>
-        <article class="article-photo-frame">
-          Рамка для фотографии
+        <article class="card card_theme_bright">
           <h3>Поставить перед собой рамку для фотографии</h3>
           <p>
             Самую обычную: 10 на 15 сантиметров. Уже от одного ощущения, что предстоит работа над большой и сложной
@@ -95,8 +102,9 @@
             дальше — пока неважно.
           </p>
         </article>
-        <article class="article-bunin">
-          Иван Бунин
+        <article class="card card_theme_dark">
+          <img src="./images/bunin.png" alt="Иван Бунин" />
+          <p>Иван Бунин</p>
           <h3>Сделать из задачи рутину</h3>
           <p>
             «Писать стихи нужно каждый день, подобно тому как скрипач или пианист непременно должен каждый день без
@@ -108,6 +116,16 @@
         </article>
       </section>
     </main>
-    <footer class="footer">© VЁRSTKA ВК Ютуб</footer>
+    <footer class="content-section content-section_theme_dark">
+      <div>© VЁRSTKA</div>
+      <ul>
+        <li>
+          <a href="https://vk.com">ВК</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com">Ютуб</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
