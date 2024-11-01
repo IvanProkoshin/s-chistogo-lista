@@ -53,6 +53,11 @@ blockquote {
   background-color: #fee42a;
   color: black;
 }
+
+.header {
+  padding: 24px 20px;
+}
+
 .card {
   padding: 20px;
   border-radius: 30px;
@@ -78,6 +83,6 @@ blockquote {
   border-top: 1px solid #fee42a;
 }
 
-.contacts {
+.contacts-list {
   list-style: none;
 }
