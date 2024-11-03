@@ -227,7 +227,8 @@ blockquote {
 }
 
 .card__author {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
+  margin: 0;
 }
 
 .card__author-photo {
@@ -260,7 +261,7 @@ blockquote {
   padding: 20px;
 }
 
-.footer__contacts-list {
+.footer__links {
   display: flex;
   column-gap: 16px;
   margin-left: auto;
