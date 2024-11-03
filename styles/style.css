@@ -18,7 +18,7 @@ blockquote {
 
 .page {
   background-color: #5f5f5f;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   line-height: 135%;
 }
@@ -50,7 +50,7 @@ blockquote {
 .header__menu-list {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  row-gap: 11px;
 
   list-style: none;
 }
@@ -80,7 +80,7 @@ blockquote {
 
 .cover {
   padding: 2px 23px 28px 20px;
-  height: 234px;
+  height: 236px;
 
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ blockquote {
   display: flex;
   flex-direction: column;
 
-  font-family: 'EB Garamond';
+  font-family: 'EB Garamond', 'Arial', sans-serif;
   font-size: 72px;
   font-weight: 400;
   line-height: 100%;
@@ -127,7 +127,7 @@ blockquote {
 }
 
 .intro__title {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 120%;
@@ -148,14 +148,14 @@ blockquote {
   display: flex;
   flex-direction: column;
 
-  font-family: 'EB Garamond';
+  font-family: 'EB Garamond', 'Arial', sans-serif;
   font-size: 28px;
   font-weight: 500;
   line-height: 115%;
 }
 
 .reasons__main-text {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 135%;
@@ -190,14 +190,14 @@ blockquote {
   display: flex;
   flex-direction: column;
 
-  font-family: 'EB Garamond';
+  font-family: 'EB Garamond', 'Arial', sans-serif;
   font-size: 28px;
   font-weight: 500;
   line-height: 115%;
 }
 
 .how-to__main-text {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 135%;
@@ -208,6 +208,7 @@ blockquote {
   flex-direction: column;
   row-gap: 8px;
   padding: 20px;
+  box-sizing: border-box;
 
   border-radius: 30px;
 }
@@ -225,6 +226,10 @@ blockquote {
   color: #131313;
 }
 
+.card__author {
+  box-sizing: border-box;
+}
+
 .card__author-photo {
   height: 100px;
   width: 100px;
@@ -232,20 +237,20 @@ blockquote {
 }
 
 .card__author-name {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
 
 .card__title {
-  font-family: 'EB Garamond';
+  font-family: 'EB Garamond', 'Arial', sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 135%;
 }
 
 .card__main-text {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -261,7 +266,7 @@ blockquote {
   margin-left: auto;
 
   list-style: none;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
