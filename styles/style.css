@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: #5f5f5f;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.content-section {
+  box-sizing: border-box;
+
+  margin: 0 auto;
+  width: 360px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  padding: 24px 20px;
+}
+
+.header__logo-image {
+  margin-right: auto;
+
+  height: 16px;
+  width: 80px;
+}
+
+.header__menu {
+  margin-left: auto;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+
+  list-style: none;
+}
+
+.header__menu-item {
+  text-decoration: underline;
+}
+
+.header__menu-item_active {
+  text-decoration: none;
+}
+
+.header__menu-link {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.cover {
+  padding: 4px 23px 16px 20px;
+
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 340px 221px;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'EB Garamond', 'Times', serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.accent-span {
+  display: block;
+}
+
+.horizontal-left {
+  align-self: flex-start;
+}
+
+.horizontal-center {
+  align-self: center;
+}
+
+.horizontal-right {
+  align-self: flex-end;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding: 19px 20px 38px;
+}
+
+.intro__heading {
+  display: flex;
+}
+
+.intro__title {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  padding: 40px 20px 39px;
+}
+
+.reasons__title {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'EB Garamond', 'Times', serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 115%;
+}
+
+.reasons__main-text {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.reasons__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding-left: 16px;
+
+  list-style: disc outside;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.reasons__list-accent {
+  font-weight: 700;
+}
+
+.how-to {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  padding: 40px 20px 60px;
+
+  border-bottom: 1px solid #fee42a;
+}
+
+.how-to__title {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'EB Garamond', 'Times', serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 115%;
+}
+
+.how-to__main-text {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  border-radius: 30px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+  color: #f5f5f5;
+}
+
+.card_theme_bright {
+  padding-top: 21px;
+  padding-bottom: 21px;
+
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.card__author {
+  margin: 0;
+}
+
+.card__author-photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.card__author-name {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card__title {
+  font-family: 'EB Garamond', 'Times', serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.card__main-text {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+}
+
+.footer__links {
+  display: flex;
+  column-gap: 16px;
+  margin-left: auto;
+
+  list-style: none;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer__contacts-list-link {
+  text-decoration: none;
+  color: #f5f5f5;
+}
